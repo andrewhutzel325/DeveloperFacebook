@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://strike:strike325@mernstack-r3rfb.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "publicToken",
+  "githubClientId": "a4c97b360ce0a1abc3d4",
+  "githubSecret": "64ef40d79645e4acae776a5f1378dd2e06baaab4"
+}
