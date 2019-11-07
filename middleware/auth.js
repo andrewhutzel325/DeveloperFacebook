@@ -1,22 +1,21 @@
 const jwt = require("jsonwebtoken");
-//const config = require("config");
-const keys = require("../config/keys");
+const config = require("config");
 
+//Function that has access to the req, res objects.
+//Call back is for the next piece of middleware.
 module.exports = function(req, res, next) {
-  //Retrieve token from header
+  //Pull token from header
   const token = req.header("x-auth-token");
-
-  //Check if not a token
+  //Check if there isn't a token
   if (!token) {
-    return res.status(401).json({ msg: "No token, auth denied!" });
+    return res.status(401).json({ message: "No token, auth denied!" });
   }
-
+  //Verify if there is a token
   try {
-    const decoded = jwt.verify(token, keys.jwtSecret);
-
+    const decoded = jwt.verify(token, config.get("jwtSecret"));
     req.user = decoded.user;
     next();
   } catch (err) {
-    res.status(401).json({ msg: "Token isn't valid" });
+    res.status(401).json({ message: "Token isnt valid!" });
   }
 };

@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+//Create reference to user model, associated with _id in database
 const ProfileSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
@@ -31,8 +32,7 @@ const ProfileSchema = new mongoose.Schema({
   experience: [
     {
       title: {
-        type: String,
-        required: true
+        type: String
       },
       company: {
         type: String,
