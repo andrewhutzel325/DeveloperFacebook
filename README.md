@@ -28,6 +28,7 @@ npm run dev
 * [MongoDb](https://www.mongodb.com/) - Database used
 * [React](https://reactjs.org/) - Front end UI
 * [Nodejs](https://nodejs.org/en/) - Language used for backend
+* [Express](https://expressjs.com/) - Minimalist web framework
 
 ## Contributing
 
