@@ -4,7 +4,7 @@ Application strives to achieve a basic developer's facebook meaning the followin
 
 ## Getting Started
 
-If interested in testing the website, you will need to modify my current URI and githubclientId to your own personalized settings. This is located under DeveloperFacebook/config/default.json. Disregard the production.json, that is purely meant to deploying to heroku.
+If interested in testing the website, you will need to modify my current URI and githubclientId to your own personalized settings. This is located under DeveloperFacebook/config/default.json. Disregard the production.json, that is purely meant for deploying to heroku.
 
 ### Prerequisites
 
