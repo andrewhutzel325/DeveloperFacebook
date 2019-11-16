@@ -20,7 +20,7 @@ npm install
 
 ### Running
 
-Once you've installed the prerequisites, cd back into the root directory and run the command below. Remember, if you didn't follow the first step you will not be able to register, make posts, and etc.
+Once you've installed the prerequisites, cd back into the root directory and run the command below. Note, you will not be able to utilizing the website properly without a backend (MongoDb).
 
 ```
 npm run dev
