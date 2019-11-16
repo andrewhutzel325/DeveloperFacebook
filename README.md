@@ -8,7 +8,7 @@ Application strives to achieve a basic developer's facebook meaning the followin
 
 ## Getting Started
 
-If interested in testing the website, you will need to modify my current URI and githubclientId to your own personalized settings. This is located under DeveloperFacebook/config/default.json. Disregard the production.json, that is purely meant for deploying to heroku.
+If interested in testing the website, follow the instructions below.
 
 ### Prerequisites
 
@@ -20,7 +20,7 @@ npm install
 
 ### Running
 
-Once you've installed the prerequisites, cd back into the root directory and run the command below. Remember, if you didn't follow the first step you will not be able to register, make posts, and etc.
+Once you've installed the prerequisites, cd back into the root directory and run the command below. Note, you will not be able to utilizing the website properly without a backend (MongoDb).
 
 ```
 npm run dev
